@@ -3,8 +3,8 @@ package data
 import (
 	"io"
 
-	"github.com/CalebQ42/squashfs/internal/decompress"
-	"github.com/CalebQ42/squashfs/internal/toreader"
+	"github.com/rclone/squashfs/internal/decompress"
+	"github.com/rclone/squashfs/internal/toreader"
 )
 
 type FullReader struct {

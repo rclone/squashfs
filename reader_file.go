@@ -12,10 +12,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/CalebQ42/squashfs/internal/data"
-	"github.com/CalebQ42/squashfs/internal/directory"
-	"github.com/CalebQ42/squashfs/internal/inode"
-	"github.com/CalebQ42/squashfs/internal/threadmanager"
+	"github.com/rclone/squashfs/internal/data"
+	"github.com/rclone/squashfs/internal/directory"
+	"github.com/rclone/squashfs/internal/inode"
+	"github.com/rclone/squashfs/internal/threadmanager"
 )
 
 // File represents a file inside a squashfs archive.

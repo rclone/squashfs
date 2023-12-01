@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/CalebQ42/squashfs/internal/toreader"
+	"github.com/rclone/squashfs/internal/toreader"
 )
 
 type fragEntry struct {

@@ -4,8 +4,8 @@ import (
 	"io/fs"
 	"time"
 
-	"github.com/CalebQ42/squashfs/internal/directory"
-	"github.com/CalebQ42/squashfs/internal/inode"
+	"github.com/rclone/squashfs/internal/directory"
+	"github.com/rclone/squashfs/internal/inode"
 )
 
 type fileInfo struct {

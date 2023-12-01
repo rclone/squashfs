@@ -4,11 +4,11 @@ import (
 	"errors"
 	"io"
 
-	"github.com/CalebQ42/squashfs/internal/data"
-	"github.com/CalebQ42/squashfs/internal/directory"
-	"github.com/CalebQ42/squashfs/internal/inode"
-	"github.com/CalebQ42/squashfs/internal/metadata"
-	"github.com/CalebQ42/squashfs/internal/toreader"
+	"github.com/rclone/squashfs/internal/data"
+	"github.com/rclone/squashfs/internal/directory"
+	"github.com/rclone/squashfs/internal/inode"
+	"github.com/rclone/squashfs/internal/metadata"
+	"github.com/rclone/squashfs/internal/toreader"
 )
 
 func (r Reader) inodeFromRef(ref uint64) (i inode.Inode, err error) {

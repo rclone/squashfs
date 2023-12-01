@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/CalebQ42/squashfs/internal/directory"
-	"github.com/CalebQ42/squashfs/internal/inode"
+	"github.com/rclone/squashfs/internal/directory"
+	"github.com/rclone/squashfs/internal/inode"
 )
 
 // FS is a fs.FS representation of a squashfs directory.

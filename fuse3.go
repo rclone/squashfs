@@ -8,7 +8,7 @@ import (
 
 	"github.com/CalebQ42/fuse"
 	"github.com/CalebQ42/fuse/fs"
-	"github.com/CalebQ42/squashfs/internal/inode"
+	"github.com/rclone/squashfs/internal/inode"
 )
 
 // Mounts the archive to the given mountpoint using fuse3. Non-blocking.

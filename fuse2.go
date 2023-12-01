@@ -6,7 +6,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/CalebQ42/squashfs/internal/inode"
+	"github.com/rclone/squashfs/internal/inode"
 	"github.com/seaweedfs/fuse"
 	"github.com/seaweedfs/fuse/fs"
 )

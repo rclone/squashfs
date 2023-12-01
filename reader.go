@@ -8,11 +8,11 @@ import (
 	"time"
 
 	"github.com/CalebQ42/fuse"
-	"github.com/CalebQ42/squashfs/internal/decompress"
-	"github.com/CalebQ42/squashfs/internal/directory"
-	"github.com/CalebQ42/squashfs/internal/inode"
-	"github.com/CalebQ42/squashfs/internal/metadata"
-	"github.com/CalebQ42/squashfs/internal/toreader"
+	"github.com/rclone/squashfs/internal/decompress"
+	"github.com/rclone/squashfs/internal/directory"
+	"github.com/rclone/squashfs/internal/inode"
+	"github.com/rclone/squashfs/internal/metadata"
+	"github.com/rclone/squashfs/internal/toreader"
 	fuse2 "github.com/seaweedfs/fuse"
 )
 
